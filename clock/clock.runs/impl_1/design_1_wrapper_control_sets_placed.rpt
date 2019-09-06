@@ -1,0 +1,84 @@
+Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2015.2 (win64) Build 1266856 Fri Jun 26 16:35:25 MDT 2015
+| Date         : Sat Jun 23 16:59:31 2018
+| Host         : KEN running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file design_1_wrapper_control_sets_placed.rpt
+| Design       : design_1_wrapper
+| Device       : xc7a35t
+---------------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Flip-Flop Distribution
+3. Detailed Control Set Information
+
+1. Summary
+----------
+
++-------------------------------------------------------------------+-------+
+|                               Status                              | Count |
++-------------------------------------------------------------------+-------+
+| Number of unique control sets                                     |    31 |
+| Minimum Number of register sites lost to control set restrictions |   198 |
++-------------------------------------------------------------------+-------+
+
+
+2. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |              10 |            6 |
+| No           | No                    | Yes                    |              18 |           18 |
+| No           | Yes                   | No                     |              70 |           22 |
+| Yes          | No                    | No                     |               0 |            0 |
+| Yes          | No                    | Yes                    |               0 |            0 |
+| Yes          | Yes                   | No                     |               0 |            0 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+3. Detailed Control Set Information
+-----------------------------------
+
++------------------------------------------------+---------------+------------------------------------------------------------+------------------+----------------+
+|                  Clock Signal                  | Enable Signal |                      Set/Reset Signal                      | Slice Load Count | Bel Load Count |
++------------------------------------------------+---------------+------------------------------------------------------------+------------------+----------------+
+|  GND_IBUF                                      |               | design_1_i/decimal_counter_4/inst/count_reg[2]_LDC_i_1_n_0 |                1 |              1 |
+|  GND_IBUF                                      |               | design_1_i/decimal_counter_4/inst/a_reg_LDC_i_2_n_0        |                1 |              1 |
+|  GND_IBUF                                      |               | design_1_i/decimal_counter_2/inst/count_reg[2]_LDC_i_1_n_0 |                1 |              1 |
+|  GND_IBUF                                      |               | design_1_i/decimal_counter_2/inst/a_reg_LDC_i_2_n_0        |                1 |              1 |
+|  GND_IBUF                                      |               | design_1_i/decimal_counter_1/inst/count_reg[2]_LDC_i_1_n_0 |                1 |              1 |
+|  GND_IBUF                                      |               | design_1_i/decimal_counter_1/inst/a_reg_LDC_i_2_n_0        |                1 |              1 |
+|  design_1_i/four_2_input_nand_gate_0/Y3        |               | GND_IBUF                                                   |                1 |              1 |
+|  design_1_i/four_2_input_nand_gate_0/Y3        |               | design_1_i/decimal_counter_1/inst/a_reg_LDC_i_2_n_0        |                1 |              1 |
+|  design_1_i/four_2_input_nand_gate_0/Y2        |               |                                                            |                1 |              1 |
+|  design_1_i/four_2_input_nand_gate_0/Y1        |               | GND_IBUF                                                   |                1 |              1 |
+|  design_1_i/four_2_input_nand_gate_0/Y1        |               | design_1_i/decimal_counter_2/inst/a_reg_LDC_i_2_n_0        |                1 |              1 |
+| ~design_1_i/decimal_counter_4/inst/Qa          |               | GND_IBUF                                                   |                1 |              1 |
+| ~design_1_i/decimal_counter_4/inst/Qa          |               | design_1_i/decimal_counter_4/inst/count_reg[2]_LDC_i_1_n_0 |                1 |              1 |
+| ~design_1_i/decimal_counter_4/inst/Qa          |               | design_1_i/decimal_counter_4/inst/count[1]_i_2_n_0         |                1 |              1 |
+| ~design_1_i/decimal_counter_4/inst/Qa          |               | design_1_i/decimal_counter_4/inst/count[0]_i_2_n_0         |                1 |              1 |
+| ~design_1_i/decimal_counter_2/inst/Qa          |               | GND_IBUF                                                   |                1 |              1 |
+| ~design_1_i/decimal_counter_2/inst/Qa          |               | design_1_i/decimal_counter_2/inst/count_reg[2]_LDC_i_1_n_0 |                1 |              1 |
+| ~design_1_i/decimal_counter_2/inst/Qa          |               | design_1_i/decimal_counter_2/inst/count[1]_i_2_n_0         |                1 |              1 |
+| ~design_1_i/decimal_counter_2/inst/Qa          |               | design_1_i/decimal_counter_2/inst/count[0]_i_2_n_0         |                1 |              1 |
+| ~design_1_i/decimal_counter_1/inst/Qa          |               | GND_IBUF                                                   |                1 |              1 |
+| ~design_1_i/decimal_counter_1/inst/Qa          |               | design_1_i/decimal_counter_1/inst/count_reg[2]_LDC_i_1_n_0 |                1 |              1 |
+| ~design_1_i/decimal_counter_1/inst/Qa          |               | design_1_i/decimal_counter_1/inst/count[1]_i_2_n_0         |                1 |              1 |
+| ~design_1_i/decimal_counter_1/inst/Qa          |               | design_1_i/decimal_counter_1/inst/count[0]_i_2_n_0         |                1 |              1 |
+| ~design_1_i/clk_div_1/inst/clk_out             |               |                                                            |                1 |              1 |
+| ~design_1_i/clk_div_0/inst/clk_out             |               | GND_IBUF                                                   |                1 |              1 |
+| ~design_1_i/clk_div_0/inst/clk_out             |               | design_1_i/decimal_counter_4/inst/a_reg_LDC_i_2_n_0        |                1 |              1 |
+|  clk_in_IBUF_BUFG                              |               |                                                            |                2 |              2 |
+| ~design_1_i/decimal_counter_3/inst/a_reg_C_n_0 |               |                                                            |                1 |              3 |
+| ~design_1_i/decimal_counter_0/inst/a_reg_C_n_0 |               |                                                            |                1 |              3 |
+|  clk_in_IBUF_BUFG                              |               | design_1_i/clk_div_1/inst/clk_out_i_1_n_0                  |                8 |             32 |
+|  clk_in_IBUF_BUFG                              |               | design_1_i/clk_div_0/inst/clk_out_i_1_n_0                  |                8 |             32 |
++------------------------------------------------+---------------+------------------------------------------------------------+------------------+----------------+
+
+

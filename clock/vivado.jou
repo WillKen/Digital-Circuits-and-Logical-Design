@@ -1,0 +1,11 @@
+#-----------------------------------------------------------
+# Vivado v2015.2 (64-bit)
+# SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+# IP Build 1264090 on Wed Jun 24 14:22:01 MDT 2015
+# Start of session at: Fri Sep 21 17:06:11 2018
+# Process ID: 9208
+# Log file: D:/Freshman/The Second Semester/Digital Circuits and Logical Design Laboratory/Digital Circuits and Logical Design Laboratory/clock/vivado.log
+# Journal file: D:/Freshman/The Second Semester/Digital Circuits and Logical Design Laboratory/Digital Circuits and Logical Design Laboratory/clock\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {D:/Freshman/The Second Semester/Digital Circuits and Logical Design Laboratory/Digital Circuits and Logical Design Laboratory/clock/clock.xpr}

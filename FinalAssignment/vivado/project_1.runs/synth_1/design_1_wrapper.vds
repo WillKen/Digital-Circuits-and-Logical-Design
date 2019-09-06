@@ -1,0 +1,464 @@
+#-----------------------------------------------------------
+# Vivado v2015.2 (64-bit)
+# SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+# IP Build 1264090 on Wed Jun 24 14:22:01 MDT 2015
+# Start of session at: Sat Jun 23 16:58:45 2018
+# Process ID: 12396
+# Log file: D:/The Second Semester/Digital Circuits and Logical Design Laboratory/Final Assignment/basys3_1/clock.runs/synth_1/design_1_wrapper.vds
+# Journal file: D:/The Second Semester/Digital Circuits and Logical Design Laboratory/Final Assignment/basys3_1/clock.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source design_1_wrapper.tcl -notrace
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+WARNING: [IP_Flow 19-3685] Ignored loading user repository 'd:/BaiduNetdiskDownload/201803/74IP/XUP_74LS42_1.0'. The path is contained within another repository.
+WARNING: [IP_Flow 19-3685] Ignored loading user repository 'd:/BaiduNetdiskDownload/201803/74IP/xup_74LS148_1.0'. The path is contained within another repository.
+WARNING: [IP_Flow 19-3685] Ignored loading user repository 'd:/BaiduNetdiskDownload/201803/74IP/xup_74LS90_1.0'. The path is contained within another repository.
+WARNING: [IP_Flow 19-3685] Ignored loading user repository 'd:/BaiduNetdiskDownload/201803/74IP/XUP_74LS21_1.0'. The path is contained within another repository.
+WARNING: [IP_Flow 19-3685] Ignored loading user repository 'd:/BaiduNetdiskDownload/201803/74IP/xup_74LS48_1.0'. The path is contained within another repository.
+WARNING: [IP_Flow 19-2248] Failed to load user IP repository 'd:/BaiduNetdiskDownload/201803/74IP'; Can't find the specified path.
+If this directory should no longer be in your list of user repositories, go to the IP Settings dialog and remove it.
+WARNING: [IP_Flow 19-3685] Ignored loading user repository 'd:/BaiduNetdiskDownload/201803/74IP/XUP_74LS30_1.0'. The path is contained within another repository.
+WARNING: [IP_Flow 19-3685] Ignored loading user repository 'd:/BaiduNetdiskDownload/201803/74IP/XUP_SPI_master_1.0'. The path is contained within another repository.
+WARNING: [IP_Flow 19-3685] Ignored loading user repository 'd:/BaiduNetdiskDownload/201803/74IP/XUP_74LS138_1.0'. The path is contained within another repository.
+WARNING: [IP_Flow 19-3685] Ignored loading user repository 'd:/BaiduNetdiskDownload/201803/74IP/xup_nand4_1'. The path is contained within another repository.
+WARNING: [IP_Flow 19-3685] Ignored loading user repository 'd:/BaiduNetdiskDownload/201803/74IP/xup_74LS164_1.0'. The path is contained within another repository.
+WARNING: [IP_Flow 19-3685] Ignored loading user repository 'd:/BaiduNetdiskDownload/201803/74IP/XUP_74LS32_1.0'. The path is contained within another repository.
+WARNING: [IP_Flow 19-3685] Ignored loading user repository 'd:/BaiduNetdiskDownload/201803/74IP/XUP_74LS74_1.0'. The path is contained within another repository.
+WARNING: [IP_Flow 19-3685] Ignored loading user repository 'd:/BaiduNetdiskDownload/201803/74IP/xup_clk_div_1.0'. The path is contained within another repository.
+WARNING: [IP_Flow 19-3685] Ignored loading user repository 'd:/BaiduNetdiskDownload/201803/74IP/xup_74LS151_1.0'. The path is contained within another repository.
+WARNING: [IP_Flow 19-3685] Ignored loading user repository 'd:/BaiduNetdiskDownload/201803/74IP/XUP_VGA_1440x900_1.0'. The path is contained within another repository.
+WARNING: [IP_Flow 19-3685] Ignored loading user repository 'd:/BaiduNetdiskDownload/201803/74IP/XUP_74LS27_1.0'. The path is contained within another repository.
+WARNING: [IP_Flow 19-3685] Ignored loading user repository 'd:/BaiduNetdiskDownload/201803/74IP/XUP_UART_1.0'. The path is contained within another repository.
+WARNING: [IP_Flow 19-3685] Ignored loading user repository 'd:/BaiduNetdiskDownload/201803/74IP/XUP_74LS11_1.0'. The path is contained within another repository.
+WARNING: [IP_Flow 19-3685] Ignored loading user repository 'd:/BaiduNetdiskDownload/201803/74IP/XUP_74LS20_1.0'. The path is contained within another repository.
+WARNING: [IP_Flow 19-3685] Ignored loading user repository 'd:/BaiduNetdiskDownload/201803/74IP/XUP_74LS10_1.0'. The path is contained within another repository.
+WARNING: [IP_Flow 19-3685] Ignored loading user repository 'd:/BaiduNetdiskDownload/201803/74IP/XUP_74LS04_1.0'. The path is contained within another repository.
+WARNING: [IP_Flow 19-3685] Ignored loading user repository 'd:/BaiduNetdiskDownload/201803/74IP/XUP_74LS02_1.0'. The path is contained within another repository.
+WARNING: [IP_Flow 19-3685] Ignored loading user repository 'd:/BaiduNetdiskDownload/201803/74IP/XUP_74LS00_1.0'. The path is contained within another repository.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Xilinx/Vivado/2015.2/data/ip'.
+WARNING: [BD 41-1661] One or more IPs have been locked in the design 'design_1.bd'. Please run report_ip_status for more details and recommendations on how to fix this issue.
+List of locked IPs:
+design_1_mux_8_to_1_3_0
+design_1_four_2_input_nand_gate_0_0
+design_1_clk_div_0_0
+design_1_clk_div_1_0
+design_1_decimal_counter_0_0
+design_1_decimal_counter_1_0
+design_1_decimal_counter_2_0
+design_1_decimal_counter_3_0
+design_1_six_not_gate_0_0
+design_1_decimal_counter_4_0
+design_1_mux_8_to_1_0_0
+design_1_mux_8_to_1_1_0
+design_1_mux_8_to_1_2_0
+design_1_BCD2SEG7_0_0
+design_1_decode138_0_0
+
+Command: synth_design -top design_1_wrapper -part xc7a35tcpg236-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Common 17-1223] The version limit for your license is '2017.03' and will expire in -449 days. A version limit expiration means that, although you may be able to continue to use the current version of tools or IP with this license, you will not be eligible for any updates or new releases.
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 274.484 ; gain = 67.109
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'design_1_wrapper' [D:/The Second Semester/Digital Circuits and Logical Design Laboratory/Final Assignment/basys3_1/clock.srcs/sources_1/bd/design_1/hdl/design_1_wrapper.v:12]
+INFO: [Synth 8-638] synthesizing module 'design_1' [D:/The Second Semester/Digital Circuits and Logical Design Laboratory/Final Assignment/basys3_1/clock.srcs/sources_1/bd/design_1/hdl/design_1.v:13]
+INFO: [Synth 8-638] synthesizing module 'design_1_BCD2SEG7_0_0' [d:/The Second Semester/Digital Circuits and Logical Design Laboratory/Final Assignment/basys3_1/clock.srcs/sources_1/bd/design_1/ip/design_1_BCD2SEG7_0_0/synth/design_1_BCD2SEG7_0_0.v:57]
+INFO: [Synth 8-638] synthesizing module 'BCD2SEG7' [d:/The Second Semester/Digital Circuits and Logical Design Laboratory/Final Assignment/basys3_1/clock.srcs/sources_1/ipshared/xilinx.com/bcd2seg7_v1_0/011dc45e/BCD2SEG7.v:23]
+INFO: [Synth 8-155] case statement is not full and has no default [d:/The Second Semester/Digital Circuits and Logical Design Laboratory/Final Assignment/basys3_1/clock.srcs/sources_1/ipshared/xilinx.com/bcd2seg7_v1_0/011dc45e/BCD2SEG7.v:43]
+INFO: [Synth 8-256] done synthesizing module 'BCD2SEG7' (1#1) [d:/The Second Semester/Digital Circuits and Logical Design Laboratory/Final Assignment/basys3_1/clock.srcs/sources_1/ipshared/xilinx.com/bcd2seg7_v1_0/011dc45e/BCD2SEG7.v:23]
+INFO: [Synth 8-256] done synthesizing module 'design_1_BCD2SEG7_0_0' (2#1) [d:/The Second Semester/Digital Circuits and Logical Design Laboratory/Final Assignment/basys3_1/clock.srcs/sources_1/bd/design_1/ip/design_1_BCD2SEG7_0_0/synth/design_1_BCD2SEG7_0_0.v:57]
+INFO: [Synth 8-638] synthesizing module 'GND' [D:/Xilinx/Vivado/2015.2/scripts/rt/data/unisim_comp.v:3854]
+INFO: [Synth 8-256] done synthesizing module 'GND' (3#1) [D:/Xilinx/Vivado/2015.2/scripts/rt/data/unisim_comp.v:3854]
+INFO: [Synth 8-638] synthesizing module 'design_1_clk_div_0_0' [d:/The Second Semester/Digital Circuits and Logical Design Laboratory/Final Assignment/basys3_1/clock.srcs/sources_1/bd/design_1/ip/design_1_clk_div_0_0/synth/design_1_clk_div_0_0.v:57]
+INFO: [Synth 8-638] synthesizing module 'clk_div' [d:/The Second Semester/Digital Circuits and Logical Design Laboratory/Final Assignment/basys3_1/clock.srcs/sources_1/ipshared/xilinx.com/clk_div_v1_0/9423c250/clk_div.v:23]
+	Parameter N bound to: 99999 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'clk_div' (4#1) [d:/The Second Semester/Digital Circuits and Logical Design Laboratory/Final Assignment/basys3_1/clock.srcs/sources_1/ipshared/xilinx.com/clk_div_v1_0/9423c250/clk_div.v:23]
+INFO: [Synth 8-256] done synthesizing module 'design_1_clk_div_0_0' (5#1) [d:/The Second Semester/Digital Circuits and Logical Design Laboratory/Final Assignment/basys3_1/clock.srcs/sources_1/bd/design_1/ip/design_1_clk_div_0_0/synth/design_1_clk_div_0_0.v:57]
+INFO: [Synth 8-638] synthesizing module 'design_1_clk_div_1_0' [d:/The Second Semester/Digital Circuits and Logical Design Laboratory/Final Assignment/basys3_1/clock.srcs/sources_1/bd/design_1/ip/design_1_clk_div_1_0/synth/design_1_clk_div_1_0.v:57]
+INFO: [Synth 8-638] synthesizing module 'clk_div__parameterized0' [d:/The Second Semester/Digital Circuits and Logical Design Laboratory/Final Assignment/basys3_1/clock.srcs/sources_1/ipshared/xilinx.com/clk_div_v1_0/9423c250/clk_div.v:23]
+	Parameter N bound to: 99999999 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'clk_div__parameterized0' (5#1) [d:/The Second Semester/Digital Circuits and Logical Design Laboratory/Final Assignment/basys3_1/clock.srcs/sources_1/ipshared/xilinx.com/clk_div_v1_0/9423c250/clk_div.v:23]
+INFO: [Synth 8-256] done synthesizing module 'design_1_clk_div_1_0' (6#1) [d:/The Second Semester/Digital Circuits and Logical Design Laboratory/Final Assignment/basys3_1/clock.srcs/sources_1/bd/design_1/ip/design_1_clk_div_1_0/synth/design_1_clk_div_1_0.v:57]
+INFO: [Synth 8-638] synthesizing module 'design_1_decimal_counter_0_0' [d:/The Second Semester/Digital Circuits and Logical Design Laboratory/Final Assignment/basys3_1/clock.srcs/sources_1/bd/design_1/ip/design_1_decimal_counter_0_0/synth/design_1_decimal_counter_0_0.v:57]
+INFO: [Synth 8-638] synthesizing module 'decimal_counter' [d:/The Second Semester/Digital Circuits and Logical Design Laboratory/Final Assignment/basys3_1/clock.srcs/sources_1/ipshared/xilinx.com/decimal_counter_v1_0/3750c69a/decimal_counter.v:23]
+INFO: [Synth 8-256] done synthesizing module 'decimal_counter' (7#1) [d:/The Second Semester/Digital Circuits and Logical Design Laboratory/Final Assignment/basys3_1/clock.srcs/sources_1/ipshared/xilinx.com/decimal_counter_v1_0/3750c69a/decimal_counter.v:23]
+INFO: [Synth 8-256] done synthesizing module 'design_1_decimal_counter_0_0' (8#1) [d:/The Second Semester/Digital Circuits and Logical Design Laboratory/Final Assignment/basys3_1/clock.srcs/sources_1/bd/design_1/ip/design_1_decimal_counter_0_0/synth/design_1_decimal_counter_0_0.v:57]
+INFO: [Synth 8-638] synthesizing module 'design_1_decimal_counter_1_0' [d:/The Second Semester/Digital Circuits and Logical Design Laboratory/Final Assignment/basys3_1/clock.srcs/sources_1/bd/design_1/ip/design_1_decimal_counter_1_0/synth/design_1_decimal_counter_1_0.v:57]
+INFO: [Synth 8-256] done synthesizing module 'design_1_decimal_counter_1_0' (9#1) [d:/The Second Semester/Digital Circuits and Logical Design Laboratory/Final Assignment/basys3_1/clock.srcs/sources_1/bd/design_1/ip/design_1_decimal_counter_1_0/synth/design_1_decimal_counter_1_0.v:57]
+INFO: [Synth 8-638] synthesizing module 'design_1_decimal_counter_2_0' [d:/The Second Semester/Digital Circuits and Logical Design Laboratory/Final Assignment/basys3_1/clock.srcs/sources_1/bd/design_1/ip/design_1_decimal_counter_2_0/synth/design_1_decimal_counter_2_0.v:57]
+INFO: [Synth 8-256] done synthesizing module 'design_1_decimal_counter_2_0' (10#1) [d:/The Second Semester/Digital Circuits and Logical Design Laboratory/Final Assignment/basys3_1/clock.srcs/sources_1/bd/design_1/ip/design_1_decimal_counter_2_0/synth/design_1_decimal_counter_2_0.v:57]
+INFO: [Synth 8-638] synthesizing module 'design_1_decimal_counter_3_0' [d:/The Second Semester/Digital Circuits and Logical Design Laboratory/Final Assignment/basys3_1/clock.srcs/sources_1/bd/design_1/ip/design_1_decimal_counter_3_0/synth/design_1_decimal_counter_3_0.v:57]
+INFO: [Synth 8-256] done synthesizing module 'design_1_decimal_counter_3_0' (11#1) [d:/The Second Semester/Digital Circuits and Logical Design Laboratory/Final Assignment/basys3_1/clock.srcs/sources_1/bd/design_1/ip/design_1_decimal_counter_3_0/synth/design_1_decimal_counter_3_0.v:57]
+INFO: [Synth 8-638] synthesizing module 'design_1_decimal_counter_4_0' [d:/The Second Semester/Digital Circuits and Logical Design Laboratory/Final Assignment/basys3_1/clock.srcs/sources_1/bd/design_1/ip/design_1_decimal_counter_4_0/synth/design_1_decimal_counter_4_0.v:57]
+INFO: [Synth 8-256] done synthesizing module 'design_1_decimal_counter_4_0' (12#1) [d:/The Second Semester/Digital Circuits and Logical Design Laboratory/Final Assignment/basys3_1/clock.srcs/sources_1/bd/design_1/ip/design_1_decimal_counter_4_0/synth/design_1_decimal_counter_4_0.v:57]
+WARNING: [Synth 8-350] instance 'decimal_counter_4' of module 'design_1_decimal_counter_4_0' requires 10 connections, but only 9 given [D:/The Second Semester/Digital Circuits and Logical Design Laboratory/Final Assignment/basys3_1/clock.srcs/sources_1/bd/design_1/hdl/design_1.v:179]
+INFO: [Synth 8-638] synthesizing module 'design_1_decode138_0_0' [d:/The Second Semester/Digital Circuits and Logical Design Laboratory/Final Assignment/basys3_1/clock.srcs/sources_1/bd/design_1/ip/design_1_decode138_0_0/synth/design_1_decode138_0_0.v:57]
+INFO: [Synth 8-638] synthesizing module 'decode138' [d:/The Second Semester/Digital Circuits and Logical Design Laboratory/Final Assignment/basys3_1/clock.srcs/sources_1/ipshared/xilinx.com/decode138_v1_0/5dc0568d/decode138.v:23]
+INFO: [Synth 8-256] done synthesizing module 'decode138' (13#1) [d:/The Second Semester/Digital Circuits and Logical Design Laboratory/Final Assignment/basys3_1/clock.srcs/sources_1/ipshared/xilinx.com/decode138_v1_0/5dc0568d/decode138.v:23]
+INFO: [Synth 8-256] done synthesizing module 'design_1_decode138_0_0' (14#1) [d:/The Second Semester/Digital Circuits and Logical Design Laboratory/Final Assignment/basys3_1/clock.srcs/sources_1/bd/design_1/ip/design_1_decode138_0_0/synth/design_1_decode138_0_0.v:57]
+WARNING: [Synth 8-350] instance 'decode138_0' of module 'design_1_decode138_0_0' requires 14 connections, but only 10 given [D:/The Second Semester/Digital Circuits and Logical Design Laboratory/Final Assignment/basys3_1/clock.srcs/sources_1/bd/design_1/hdl/design_1.v:189]
+INFO: [Synth 8-638] synthesizing module 'design_1_four_2_input_nand_gate_0_0' [d:/The Second Semester/Digital Circuits and Logical Design Laboratory/Final Assignment/basys3_1/clock.srcs/sources_1/bd/design_1/ip/design_1_four_2_input_nand_gate_0_0/synth/design_1_four_2_input_nand_gate_0_0.v:57]
+INFO: [Synth 8-638] synthesizing module 'four_2_input_nand_gate' [d:/The Second Semester/Digital Circuits and Logical Design Laboratory/Final Assignment/basys3_1/clock.srcs/sources_1/ipshared/xilinx.com/four_2_input_nand_gate_v1_0/5bc49dbd/four_2_input_nand_gate.v:23]
+	Parameter Delay bound to: 0 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'four_2_input_nand_gate' (15#1) [d:/The Second Semester/Digital Circuits and Logical Design Laboratory/Final Assignment/basys3_1/clock.srcs/sources_1/ipshared/xilinx.com/four_2_input_nand_gate_v1_0/5bc49dbd/four_2_input_nand_gate.v:23]
+INFO: [Synth 8-256] done synthesizing module 'design_1_four_2_input_nand_gate_0_0' (16#1) [d:/The Second Semester/Digital Circuits and Logical Design Laboratory/Final Assignment/basys3_1/clock.srcs/sources_1/bd/design_1/ip/design_1_four_2_input_nand_gate_0_0/synth/design_1_four_2_input_nand_gate_0_0.v:57]
+INFO: [Synth 8-638] synthesizing module 'design_1_mux_8_to_1_0_0' [d:/The Second Semester/Digital Circuits and Logical Design Laboratory/Final Assignment/basys3_1/clock.srcs/sources_1/bd/design_1/ip/design_1_mux_8_to_1_0_0/synth/design_1_mux_8_to_1_0_0.v:57]
+INFO: [Synth 8-638] synthesizing module 'mux_8_to_1' [d:/The Second Semester/Digital Circuits and Logical Design Laboratory/Final Assignment/basys3_1/clock.srcs/sources_1/ipshared/xilinx.com/mux_8_to_1_v1_0/44ac1266/mux_8_to_1.v:23]
+INFO: [Synth 8-256] done synthesizing module 'mux_8_to_1' (17#1) [d:/The Second Semester/Digital Circuits and Logical Design Laboratory/Final Assignment/basys3_1/clock.srcs/sources_1/ipshared/xilinx.com/mux_8_to_1_v1_0/44ac1266/mux_8_to_1.v:23]
+INFO: [Synth 8-256] done synthesizing module 'design_1_mux_8_to_1_0_0' (18#1) [d:/The Second Semester/Digital Circuits and Logical Design Laboratory/Final Assignment/basys3_1/clock.srcs/sources_1/bd/design_1/ip/design_1_mux_8_to_1_0_0/synth/design_1_mux_8_to_1_0_0.v:57]
+WARNING: [Synth 8-350] instance 'mux_8_to_1_0' of module 'design_1_mux_8_to_1_0_0' requires 14 connections, but only 13 given [D:/The Second Semester/Digital Circuits and Logical Design Laboratory/Final Assignment/basys3_1/clock.srcs/sources_1/bd/design_1/hdl/design_1.v:213]
+INFO: [Synth 8-638] synthesizing module 'design_1_mux_8_to_1_1_0' [d:/The Second Semester/Digital Circuits and Logical Design Laboratory/Final Assignment/basys3_1/clock.srcs/sources_1/bd/design_1/ip/design_1_mux_8_to_1_1_0/synth/design_1_mux_8_to_1_1_0.v:57]
+INFO: [Synth 8-256] done synthesizing module 'design_1_mux_8_to_1_1_0' (19#1) [d:/The Second Semester/Digital Circuits and Logical Design Laboratory/Final Assignment/basys3_1/clock.srcs/sources_1/bd/design_1/ip/design_1_mux_8_to_1_1_0/synth/design_1_mux_8_to_1_1_0.v:57]
+WARNING: [Synth 8-350] instance 'mux_8_to_1_1' of module 'design_1_mux_8_to_1_1_0' requires 14 connections, but only 13 given [D:/The Second Semester/Digital Circuits and Logical Design Laboratory/Final Assignment/basys3_1/clock.srcs/sources_1/bd/design_1/hdl/design_1.v:227]
+INFO: [Synth 8-638] synthesizing module 'design_1_mux_8_to_1_2_0' [d:/The Second Semester/Digital Circuits and Logical Design Laboratory/Final Assignment/basys3_1/clock.srcs/sources_1/bd/design_1/ip/design_1_mux_8_to_1_2_0/synth/design_1_mux_8_to_1_2_0.v:57]
+INFO: [Synth 8-256] done synthesizing module 'design_1_mux_8_to_1_2_0' (20#1) [d:/The Second Semester/Digital Circuits and Logical Design Laboratory/Final Assignment/basys3_1/clock.srcs/sources_1/bd/design_1/ip/design_1_mux_8_to_1_2_0/synth/design_1_mux_8_to_1_2_0.v:57]
+WARNING: [Synth 8-350] instance 'mux_8_to_1_2' of module 'design_1_mux_8_to_1_2_0' requires 14 connections, but only 13 given [D:/The Second Semester/Digital Circuits and Logical Design Laboratory/Final Assignment/basys3_1/clock.srcs/sources_1/bd/design_1/hdl/design_1.v:241]
+INFO: [Synth 8-638] synthesizing module 'design_1_mux_8_to_1_3_0' [d:/The Second Semester/Digital Circuits and Logical Design Laboratory/Final Assignment/basys3_1/clock.srcs/sources_1/bd/design_1/ip/design_1_mux_8_to_1_3_0/synth/design_1_mux_8_to_1_3_0.v:57]
+INFO: [Synth 8-256] done synthesizing module 'design_1_mux_8_to_1_3_0' (21#1) [d:/The Second Semester/Digital Circuits and Logical Design Laboratory/Final Assignment/basys3_1/clock.srcs/sources_1/bd/design_1/ip/design_1_mux_8_to_1_3_0/synth/design_1_mux_8_to_1_3_0.v:57]
+WARNING: [Synth 8-350] instance 'mux_8_to_1_3' of module 'design_1_mux_8_to_1_3_0' requires 14 connections, but only 13 given [D:/The Second Semester/Digital Circuits and Logical Design Laboratory/Final Assignment/basys3_1/clock.srcs/sources_1/bd/design_1/hdl/design_1.v:255]
+INFO: [Synth 8-638] synthesizing module 'design_1_six_not_gate_0_0' [d:/The Second Semester/Digital Circuits and Logical Design Laboratory/Final Assignment/basys3_1/clock.srcs/sources_1/bd/design_1/ip/design_1_six_not_gate_0_0/synth/design_1_six_not_gate_0_0.v:57]
+INFO: [Synth 8-638] synthesizing module 'six_not_gate' [d:/The Second Semester/Digital Circuits and Logical Design Laboratory/Final Assignment/basys3_1/clock.srcs/sources_1/ipshared/xilinx.com/six_not_gate_v1_0/f0d1d89d/six_not_gate.v:23]
+	Parameter Delay bound to: 0 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'six_not_gate' (22#1) [d:/The Second Semester/Digital Circuits and Logical Design Laboratory/Final Assignment/basys3_1/clock.srcs/sources_1/ipshared/xilinx.com/six_not_gate_v1_0/f0d1d89d/six_not_gate.v:23]
+INFO: [Synth 8-256] done synthesizing module 'design_1_six_not_gate_0_0' (23#1) [d:/The Second Semester/Digital Circuits and Logical Design Laboratory/Final Assignment/basys3_1/clock.srcs/sources_1/bd/design_1/ip/design_1_six_not_gate_0_0/synth/design_1_six_not_gate_0_0.v:57]
+WARNING: [Synth 8-350] instance 'six_not_gate_0' of module 'design_1_six_not_gate_0_0' requires 12 connections, but only 10 given [D:/The Second Semester/Digital Circuits and Logical Design Laboratory/Final Assignment/basys3_1/clock.srcs/sources_1/bd/design_1/hdl/design_1.v:269]
+INFO: [Synth 8-256] done synthesizing module 'design_1' (24#1) [D:/The Second Semester/Digital Circuits and Logical Design Laboratory/Final Assignment/basys3_1/clock.srcs/sources_1/bd/design_1/hdl/design_1.v:13]
+INFO: [Synth 8-256] done synthesizing module 'design_1_wrapper' (25#1) [D:/The Second Semester/Digital Circuits and Logical Design Laboratory/Final Assignment/basys3_1/clock.srcs/sources_1/bd/design_1/hdl/design_1_wrapper.v:12]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 308.918 ; gain = 101.543
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 308.918 ; gain = 101.543
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7a35tcpg236-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [D:/The Second Semester/Digital Circuits and Logical Design Laboratory/Final Assignment/basys3_1/clock.srcs/constrs_1/new/clock.xdc]
+Finished Parsing XDC File [D:/The Second Semester/Digital Circuits and Logical Design Laboratory/Final Assignment/basys3_1/clock.srcs/constrs_1/new/clock.xdc]
+Parsing XDC File [D:/The Second Semester/Digital Circuits and Logical Design Laboratory/Final Assignment/basys3_1/clock.runs/synth_1/dont_touch.xdc]
+Finished Parsing XDC File [D:/The Second Semester/Digital Circuits and Logical Design Laboratory/Final Assignment/basys3_1/clock.runs/synth_1/dont_touch.xdc]
+Completed Processing XDC Constraints
+
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 611.707 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:10 ; elapsed = 00:00:12 . Memory (MB): peak = 611.707 ; gain = 404.332
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a35tcpg236-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:10 ; elapsed = 00:00:12 . Memory (MB): peak = 611.707 ; gain = 404.332
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property DONT_TOUCH = true for design_1_i. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_1_i/BCD2SEG7_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_1_i/clk_div_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_1_i/clk_div_1. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_1_i/decimal_counter_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_1_i/decimal_counter_1. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_1_i/decimal_counter_2. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_1_i/decimal_counter_3. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_1_i/decimal_counter_4. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_1_i/decode138_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_1_i/four_2_input_nand_gate_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_1_i/mux_8_to_1_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_1_i/mux_8_to_1_1. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_1_i/mux_8_to_1_2. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_1_i/mux_8_to_1_3. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_1_i/six_not_gate_0. (constraint file  auto generated constraint, line ).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:10 ; elapsed = 00:00:12 . Memory (MB): peak = 611.707 ; gain = 404.332
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5544] ROM "count1" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "count0" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "y" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "y" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "y" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "y" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "y" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "y" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "y" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "y" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+WARNING: [Synth 8-327] inferring latch for variable 'a_to_g_reg' [d:/The Second Semester/Digital Circuits and Logical Design Laboratory/Final Assignment/basys3_1/clock.srcs/sources_1/ipshared/xilinx.com/bcd2seg7_v1_0/011dc45e/BCD2SEG7.v:37]
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:10 ; elapsed = 00:00:12 . Memory (MB): peak = 611.707 ; gain = 404.332
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      3 Bit       Adders := 5     
++---Registers : 
+	                1 Bit    Registers := 2     
++---Muxes : 
+	   2 Input      8 Bit        Muxes := 1     
+	  19 Input      7 Bit        Muxes := 1     
+	   3 Input      3 Bit        Muxes := 5     
+	   2 Input      3 Bit        Muxes := 10    
+	  19 Input      1 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 8     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module BCD2SEG7 
+Detailed RTL Component Info : 
++---Muxes : 
+	  19 Input      7 Bit        Muxes := 1     
+	  19 Input      1 Bit        Muxes := 1     
+Module clk_div 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
+Module clk_div__parameterized0 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
+Module decimal_counter 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      3 Bit       Adders := 1     
++---Muxes : 
+	   3 Input      3 Bit        Muxes := 1     
+	   2 Input      3 Bit        Muxes := 2     
+Module decode138 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input      8 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 8     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 120 (col length:60)
+BRAMs: 150 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+Start Parallel Synthesis Optimization  : Time (s): cpu = 00:00:10 ; elapsed = 00:00:12 . Memory (MB): peak = 611.707 ; gain = 404.332
+---------------------------------------------------------------------------------
+Start Cross Boundary Optimization
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5544] ROM "inst/y" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "inst/y" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "inst/y" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "inst/y" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "inst/y" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "inst/y" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "inst/y" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "inst/y" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+---------------------------------------------------------------------------------
+Finished Cross Boundary Optimization : Time (s): cpu = 00:00:10 ; elapsed = 00:00:12 . Memory (MB): peak = 611.707 ; gain = 404.332
+---------------------------------------------------------------------------------
+Finished Parallel Reinference  : Time (s): cpu = 00:00:10 ; elapsed = 00:00:12 . Memory (MB): peak = 611.707 ; gain = 404.332
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Area Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Area Optimization : Time (s): cpu = 00:00:11 ; elapsed = 00:00:13 . Memory (MB): peak = 611.707 ; gain = 404.332
+---------------------------------------------------------------------------------
+Finished Parallel Area Optimization  : Time (s): cpu = 00:00:11 ; elapsed = 00:00:13 . Memory (MB): peak = 611.707 ; gain = 404.332
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+Finished Parallel Synthesis Optimization  : Time (s): cpu = 00:00:11 ; elapsed = 00:00:13 . Memory (MB): peak = 611.707 ; gain = 404.332
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:19 ; elapsed = 00:00:22 . Memory (MB): peak = 611.707 ; gain = 404.332
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:19 ; elapsed = 00:00:22 . Memory (MB): peak = 611.707 ; gain = 404.332
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:20 ; elapsed = 00:00:22 . Memory (MB): peak = 611.707 ; gain = 404.332
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:20 ; elapsed = 00:00:22 . Memory (MB): peak = 611.707 ; gain = 404.332
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:20 ; elapsed = 00:00:22 . Memory (MB): peak = 611.707 ; gain = 404.332
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:20 ; elapsed = 00:00:22 . Memory (MB): peak = 611.707 ; gain = 404.332
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports : Time (s): cpu = 00:00:20 ; elapsed = 00:00:22 . Memory (MB): peak = 611.707 ; gain = 404.332
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:20 ; elapsed = 00:00:22 . Memory (MB): peak = 611.707 ; gain = 404.332
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+--------+------+
+|      |Cell    |Count |
++------+--------+------+
+|1     |BUFG    |     1|
+|2     |GND     |     1|
+|3     |LUT1    |    19|
+|4     |LUT2    |    15|
+|5     |LUT3    |    15|
+|6     |LUT4    |    34|
+|7     |LUT5    |    17|
+|8     |LUT6    |    37|
+|9     |MUXCY_L |    62|
+|10    |XORCY   |    64|
+|11    |FDCE    |    20|
+|12    |FDPE    |    10|
+|13    |FDRE    |    66|
+|14    |LD      |     7|
+|15    |LDC     |    10|
+|16    |IBUF    |     3|
+|17    |IOBUF   |     1|
+|18    |OBUF    |    12|
++------+--------+------+
+
+Report Instance Areas: 
++------+-----------------------------+------------------------------------+------+
+|      |Instance                     |Module                              |Cells |
++------+-----------------------------+------------------------------------+------+
+|1     |top                          |                                    |   394|
+|2     |  design_1_i                 |design_1                            |   378|
+|3     |    BCD2SEG7_0               |design_1_BCD2SEG7_0_0               |    26|
+|4     |      inst                   |BCD2SEG7                            |    22|
+|5     |    clk_div_0                |design_1_clk_div_0_0                |   106|
+|6     |      inst                   |clk_div                             |   106|
+|7     |    clk_div_1                |design_1_clk_div_1_0                |   106|
+|8     |      inst                   |clk_div__parameterized0             |   106|
+|9     |    decimal_counter_0        |design_1_decimal_counter_0_0        |    21|
+|10    |      inst                   |decimal_counter_3                   |    21|
+|11    |    decimal_counter_1        |design_1_decimal_counter_1_0        |    21|
+|12    |      inst                   |decimal_counter_2                   |    21|
+|13    |    decimal_counter_2        |design_1_decimal_counter_2_0        |    21|
+|14    |      inst                   |decimal_counter_1                   |    21|
+|15    |    decimal_counter_3        |design_1_decimal_counter_3_0        |    21|
+|16    |      inst                   |decimal_counter_0                   |    21|
+|17    |    decimal_counter_4        |design_1_decimal_counter_4_0        |    21|
+|18    |      inst                   |decimal_counter                     |    21|
+|19    |    decode138_0              |design_1_decode138_0_0              |     8|
+|20    |      inst                   |decode138                           |     8|
+|21    |    four_2_input_nand_gate_0 |design_1_four_2_input_nand_gate_0_0 |     4|
+|22    |    mux_8_to_1_0             |design_1_mux_8_to_1_0_0             |     4|
+|23    |    mux_8_to_1_1             |design_1_mux_8_to_1_1_0             |     4|
+|24    |    mux_8_to_1_2             |design_1_mux_8_to_1_2_0             |     4|
+|25    |    mux_8_to_1_3             |design_1_mux_8_to_1_3_0             |     4|
+|26    |    six_not_gate_0           |design_1_six_not_gate_0_0           |     6|
++------+-----------------------------+------------------------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:20 ; elapsed = 00:00:22 . Memory (MB): peak = 611.707 ; gain = 404.332
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 1 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:12 ; elapsed = 00:00:16 . Memory (MB): peak = 611.707 ; gain = 84.098
+Synthesis Optimization Complete : Time (s): cpu = 00:00:20 ; elapsed = 00:00:22 . Memory (MB): peak = 611.707 ; gain = 404.332
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 147 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 13 inverter(s) to 36 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 34 instances were transformed.
+  (MUXCY,XORCY) => CARRY4: 16 instances
+  IOBUF => IOBUF (IBUF, OBUFT): 1 instances
+  LD => LDCE: 7 instances
+  LDC => LDCE: 10 instances
+
+INFO: [Common 17-83] Releasing license: Synthesis
+85 Infos, 33 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:19 ; elapsed = 00:00:20 . Memory (MB): peak = 611.707 ; gain = 386.887
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.047 . Memory (MB): peak = 611.707 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Sat Jun 23 16:59:09 2018...

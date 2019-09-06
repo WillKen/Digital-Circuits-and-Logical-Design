@@ -1,0 +1,23 @@
+#-----------------------------------------------------------
+# Vivado v2015.2 (64-bit)
+# SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+# IP Build 1264090 on Wed Jun 24 14:22:01 MDT 2015
+# Start of session at: Fri Jun 29 19:05:18 2018
+# Process ID: 3004
+# Log file: D:/The Second Semester/Digital Circuits and Logical Design Laboratory/Final Assignment/vivado/vivado.log
+# Journal file: D:/The Second Semester/Digital Circuits and Logical Design Laboratory/Final Assignment/vivado\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {D:/The Second Semester/Digital Circuits and Logical Design Laboratory/Final Assignment/vivado/project_1.xpr}
+open_hw
+connect_hw_server
+open_hw_target [lindex [get_hw_targets -of_objects [get_hw_servers localhost]] 0]
+set_property PROGRAM.FILE {D:/The Second Semester/Digital Circuits and Logical Design Laboratory/Final Assignment/vivado/project_1.runs/impl_1/design_1_wrapper.bit} [lindex [get_hw_devices] 0]
+current_hw_device [lindex [get_hw_devices] 0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices] 0]
+set_property PROBES.FILE {} [lindex [get_hw_devices] 0]
+set_property PROGRAM.FILE {D:/The Second Semester/Digital Circuits and Logical Design Laboratory/Final Assignment/vivado/project_1.runs/impl_1/design_1_wrapper.bit} [lindex [get_hw_devices] 0]
+program_hw_devices [lindex [get_hw_devices] 0]
+refresh_hw_device [lindex [get_hw_devices] 0]
+close_hw_target
+close_hw_target

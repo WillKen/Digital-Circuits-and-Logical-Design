@@ -1,0 +1,154 @@
+#-----------------------------------------------------------
+# Vivado v2015.2 (64-bit)
+# SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+# IP Build 1264090 on Wed Jun 24 14:22:01 MDT 2015
+# Start of session at: Wed Jun 27 18:52:28 2018
+# Process ID: 1428
+# Log file: D:/The Second Semester/Digital Circuits and Logical Design Laboratory/Final Assignment/clock/vivado.log
+# Journal file: D:/The Second Semester/Digital Circuits and Logical Design Laboratory/Final Assignment/clock\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {D:/The Second Semester/Digital Circuits and Logical Design Laboratory/Final Assignment/clock/clock.xpr}
+INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter.
+Current project path is 'D:/The Second Semester/Digital Circuits and Logical Design Laboratory/Final Assignment/clock'
+INFO: [Project 1-313] Project file moved from 'D:/The Second Semester/Digital Circuits and Logical Design Laboratory/Final Assignment/basys3_1' since last save.
+Scanning sources...
+Finished scanning sources
+WARNING: [filemgmt 56-3] IP Repository Path: Could not find the directory 'D:/BaiduNetdiskDownload/201803/74IP/XUP_74LS42_1.0'.
+WARNING: [filemgmt 56-3] IP Repository Path: Could not find the directory 'D:/BaiduNetdiskDownload/201803/74IP/xup_74LS148_1.0'.
+WARNING: [filemgmt 56-3] IP Repository Path: Could not find the directory 'D:/BaiduNetdiskDownload/201803/74IP/xup_74LS90_1.0'.
+WARNING: [filemgmt 56-3] IP Repository Path: Could not find the directory 'D:/BaiduNetdiskDownload/201803/74IP/XUP_74LS21_1.0'.
+WARNING: [filemgmt 56-3] IP Repository Path: Could not find the directory 'D:/BaiduNetdiskDownload/201803/74IP/xup_74LS48_1.0'.
+WARNING: [filemgmt 56-3] IP Repository Path: Could not find the directory 'D:/BaiduNetdiskDownload/201803/74IP'.
+WARNING: [filemgmt 56-3] IP Repository Path: Could not find the directory 'D:/BaiduNetdiskDownload/201803/74IP/XUP_74LS30_1.0'.
+WARNING: [filemgmt 56-3] IP Repository Path: Could not find the directory 'D:/BaiduNetdiskDownload/201803/74IP/XUP_SPI_master_1.0'.
+WARNING: [filemgmt 56-3] IP Repository Path: Could not find the directory 'D:/BaiduNetdiskDownload/201803/74IP/XUP_74LS138_1.0'.
+WARNING: [filemgmt 56-3] IP Repository Path: Could not find the directory 'D:/BaiduNetdiskDownload/201803/74IP/xup_nand4_1'.
+WARNING: [filemgmt 56-3] IP Repository Path: Could not find the directory 'D:/BaiduNetdiskDownload/201803/74IP/xup_74LS164_1.0'.
+WARNING: [filemgmt 56-3] IP Repository Path: Could not find the directory 'D:/BaiduNetdiskDownload/201803/74IP/XUP_74LS32_1.0'.
+WARNING: [filemgmt 56-3] IP Repository Path: Could not find the directory 'D:/BaiduNetdiskDownload/201803/74IP/XUP_74LS74_1.0'.
+WARNING: [filemgmt 56-3] IP Repository Path: Could not find the directory 'D:/BaiduNetdiskDownload/201803/74IP/xup_clk_div_1.0'.
+WARNING: [filemgmt 56-3] IP Repository Path: Could not find the directory 'D:/BaiduNetdiskDownload/201803/74IP/xup_74LS151_1.0'.
+WARNING: [filemgmt 56-3] IP Repository Path: Could not find the directory 'D:/BaiduNetdiskDownload/201803/74IP/XUP_VGA_1440x900_1.0'.
+WARNING: [filemgmt 56-3] IP Repository Path: Could not find the directory 'D:/BaiduNetdiskDownload/201803/74IP/XUP_74LS27_1.0'.
+WARNING: [filemgmt 56-3] IP Repository Path: Could not find the directory 'D:/BaiduNetdiskDownload/201803/74IP/XUP_UART_1.0'.
+WARNING: [filemgmt 56-3] IP Repository Path: Could not find the directory 'D:/BaiduNetdiskDownload/201803/74IP/XUP_74LS11_1.0'.
+WARNING: [filemgmt 56-3] IP Repository Path: Could not find the directory 'D:/BaiduNetdiskDownload/201803/74IP/XUP_74LS20_1.0'.
+WARNING: [filemgmt 56-3] IP Repository Path: Could not find the directory 'D:/BaiduNetdiskDownload/201803/74IP/XUP_74LS10_1.0'.
+WARNING: [filemgmt 56-3] IP Repository Path: Could not find the directory 'D:/BaiduNetdiskDownload/201803/74IP/XUP_74LS04_1.0'.
+WARNING: [filemgmt 56-3] IP Repository Path: Could not find the directory 'D:/BaiduNetdiskDownload/201803/74IP/XUP_74LS02_1.0'.
+WARNING: [filemgmt 56-3] IP Repository Path: Could not find the directory 'D:/BaiduNetdiskDownload/201803/74IP/XUP_74LS00_1.0'.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+WARNING: [IP_Flow 19-3685] Ignored loading user repository 'd:/BaiduNetdiskDownload/201803/74IP/XUP_74LS42_1.0'. The path is contained within another repository.
+WARNING: [IP_Flow 19-3685] Ignored loading user repository 'd:/BaiduNetdiskDownload/201803/74IP/xup_74LS148_1.0'. The path is contained within another repository.
+WARNING: [IP_Flow 19-3685] Ignored loading user repository 'd:/BaiduNetdiskDownload/201803/74IP/xup_74LS90_1.0'. The path is contained within another repository.
+WARNING: [IP_Flow 19-3685] Ignored loading user repository 'd:/BaiduNetdiskDownload/201803/74IP/XUP_74LS21_1.0'. The path is contained within another repository.
+WARNING: [IP_Flow 19-3685] Ignored loading user repository 'd:/BaiduNetdiskDownload/201803/74IP/xup_74LS48_1.0'. The path is contained within another repository.
+WARNING: [IP_Flow 19-2248] Failed to load user IP repository 'd:/BaiduNetdiskDownload/201803/74IP'; Can't find the specified path.
+If this directory should no longer be in your list of user repositories, go to the IP Settings dialog and remove it.
+WARNING: [IP_Flow 19-3685] Ignored loading user repository 'd:/BaiduNetdiskDownload/201803/74IP/XUP_74LS30_1.0'. The path is contained within another repository.
+WARNING: [IP_Flow 19-3685] Ignored loading user repository 'd:/BaiduNetdiskDownload/201803/74IP/XUP_SPI_master_1.0'. The path is contained within another repository.
+WARNING: [IP_Flow 19-3685] Ignored loading user repository 'd:/BaiduNetdiskDownload/201803/74IP/XUP_74LS138_1.0'. The path is contained within another repository.
+WARNING: [IP_Flow 19-3685] Ignored loading user repository 'd:/BaiduNetdiskDownload/201803/74IP/xup_nand4_1'. The path is contained within another repository.
+WARNING: [IP_Flow 19-3685] Ignored loading user repository 'd:/BaiduNetdiskDownload/201803/74IP/xup_74LS164_1.0'. The path is contained within another repository.
+WARNING: [IP_Flow 19-3685] Ignored loading user repository 'd:/BaiduNetdiskDownload/201803/74IP/XUP_74LS32_1.0'. The path is contained within another repository.
+WARNING: [IP_Flow 19-3685] Ignored loading user repository 'd:/BaiduNetdiskDownload/201803/74IP/XUP_74LS74_1.0'. The path is contained within another repository.
+WARNING: [IP_Flow 19-3685] Ignored loading user repository 'd:/BaiduNetdiskDownload/201803/74IP/xup_clk_div_1.0'. The path is contained within another repository.
+WARNING: [IP_Flow 19-3685] Ignored loading user repository 'd:/BaiduNetdiskDownload/201803/74IP/xup_74LS151_1.0'. The path is contained within another repository.
+WARNING: [IP_Flow 19-3685] Ignored loading user repository 'd:/BaiduNetdiskDownload/201803/74IP/XUP_VGA_1440x900_1.0'. The path is contained within another repository.
+WARNING: [IP_Flow 19-3685] Ignored loading user repository 'd:/BaiduNetdiskDownload/201803/74IP/XUP_74LS27_1.0'. The path is contained within another repository.
+WARNING: [IP_Flow 19-3685] Ignored loading user repository 'd:/BaiduNetdiskDownload/201803/74IP/XUP_UART_1.0'. The path is contained within another repository.
+WARNING: [IP_Flow 19-3685] Ignored loading user repository 'd:/BaiduNetdiskDownload/201803/74IP/XUP_74LS11_1.0'. The path is contained within another repository.
+WARNING: [IP_Flow 19-3685] Ignored loading user repository 'd:/BaiduNetdiskDownload/201803/74IP/XUP_74LS20_1.0'. The path is contained within another repository.
+WARNING: [IP_Flow 19-3685] Ignored loading user repository 'd:/BaiduNetdiskDownload/201803/74IP/XUP_74LS10_1.0'. The path is contained within another repository.
+WARNING: [IP_Flow 19-3685] Ignored loading user repository 'd:/BaiduNetdiskDownload/201803/74IP/XUP_74LS04_1.0'. The path is contained within another repository.
+WARNING: [IP_Flow 19-3685] Ignored loading user repository 'd:/BaiduNetdiskDownload/201803/74IP/XUP_74LS02_1.0'. The path is contained within another repository.
+WARNING: [IP_Flow 19-3685] Ignored loading user repository 'd:/BaiduNetdiskDownload/201803/74IP/XUP_74LS00_1.0'. The path is contained within another repository.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Xilinx/Vivado/2015.2/data/ip'.
+WARNING: [BD 41-1661] One or more IPs have been locked in the design 'design_1.bd'. Please run report_ip_status for more details and recommendations on how to fix this issue.
+List of locked IPs:
+design_1_mux_8_to_1_3_0
+design_1_four_2_input_nand_gate_0_0
+design_1_clk_div_0_0
+design_1_clk_div_1_0
+design_1_decimal_counter_0_0
+design_1_decimal_counter_1_0
+design_1_decimal_counter_2_0
+design_1_decimal_counter_3_0
+design_1_six_not_gate_0_0
+design_1_decimal_counter_4_0
+design_1_mux_8_to_1_0_0
+design_1_mux_8_to_1_1_0
+design_1_mux_8_to_1_2_0
+design_1_BCD2SEG7_0_0
+design_1_decode138_0_0
+
+open_project: Time (s): cpu = 00:00:12 ; elapsed = 00:00:06 . Memory (MB): peak = 751.480 ; gain = 184.777
+save_project_as project_1 {D:/The Second Semester/Digital Circuits and Logical Design Laboratory/Final Assignment/vivado} -force
+INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter.
+Current project path is 'D:/The Second Semester/Digital Circuits and Logical Design Laboratory/Final Assignment/vivado'
+WARNING: [IP_Flow 19-2162] IP 'design_1_clk_div_0_0' is locked:
+* IP definition 'clk_div (1.0)' for IP 'design_1_clk_div_0_0' was not found in the IP Catalog.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [IP_Flow 19-2162] IP 'design_1_clk_div_1_0' is locked:
+* IP definition 'clk_div (1.0)' for IP 'design_1_clk_div_1_0' was not found in the IP Catalog.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [IP_Flow 19-2162] IP 'design_1_decimal_counter_0_0' is locked:
+* IP definition 'decimal_counter (1.0)' for IP 'design_1_decimal_counter_0_0' was not found in the IP Catalog.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [IP_Flow 19-2162] IP 'design_1_decimal_counter_1_0' is locked:
+* IP definition 'decimal_counter (1.0)' for IP 'design_1_decimal_counter_1_0' was not found in the IP Catalog.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [IP_Flow 19-2162] IP 'design_1_decimal_counter_2_0' is locked:
+* IP definition 'decimal_counter (1.0)' for IP 'design_1_decimal_counter_2_0' was not found in the IP Catalog.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [IP_Flow 19-2162] IP 'design_1_decimal_counter_3_0' is locked:
+* IP definition 'decimal_counter (1.0)' for IP 'design_1_decimal_counter_3_0' was not found in the IP Catalog.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [IP_Flow 19-2162] IP 'design_1_four_2_input_nand_gate_0_0' is locked:
+* IP definition 'four_2_input_nand_gate (1.0)' for IP 'design_1_four_2_input_nand_gate_0_0' was not found in the IP Catalog.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [IP_Flow 19-2162] IP 'design_1_six_not_gate_0_0' is locked:
+* IP definition 'six_not_gate (1.0)' for IP 'design_1_six_not_gate_0_0' was not found in the IP Catalog.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [IP_Flow 19-2162] IP 'design_1_decimal_counter_4_0' is locked:
+* IP definition 'decimal_counter (1.0)' for IP 'design_1_decimal_counter_4_0' was not found in the IP Catalog.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [IP_Flow 19-2162] IP 'design_1_mux_8_to_1_0_0' is locked:
+* IP definition 'mux_8_to_1 (1.0)' for IP 'design_1_mux_8_to_1_0_0' was not found in the IP Catalog.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [IP_Flow 19-2162] IP 'design_1_mux_8_to_1_1_0' is locked:
+* IP definition 'mux_8_to_1 (1.0)' for IP 'design_1_mux_8_to_1_1_0' was not found in the IP Catalog.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [IP_Flow 19-2162] IP 'design_1_mux_8_to_1_2_0' is locked:
+* IP definition 'mux_8_to_1 (1.0)' for IP 'design_1_mux_8_to_1_2_0' was not found in the IP Catalog.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [IP_Flow 19-2162] IP 'design_1_mux_8_to_1_3_0' is locked:
+* IP definition 'mux_8_to_1 (1.0)' for IP 'design_1_mux_8_to_1_3_0' was not found in the IP Catalog.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [IP_Flow 19-2162] IP 'design_1_BCD2SEG7_0_0' is locked:
+* IP definition 'BCD2SEG7 (1.0)' for IP 'design_1_BCD2SEG7_0_0' was not found in the IP Catalog.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [IP_Flow 19-2162] IP 'design_1_decode138_0_0' is locked:
+* IP definition 'decode138 (1.0)' for IP 'design_1_decode138_0_0' was not found in the IP Catalog.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [BD 41-1661] One or more IPs have been locked in the design 'design_1.bd'. Please run report_ip_status for more details and recommendations on how to fix this issue.
+List of locked IPs:
+design_1_mux_8_to_1_3_0
+design_1_four_2_input_nand_gate_0_0
+design_1_clk_div_0_0
+design_1_clk_div_1_0
+design_1_decimal_counter_0_0
+design_1_decimal_counter_1_0
+design_1_decimal_counter_2_0
+design_1_decimal_counter_3_0
+design_1_six_not_gate_0_0
+design_1_decimal_counter_4_0
+design_1_mux_8_to_1_0_0
+design_1_mux_8_to_1_1_0
+design_1_mux_8_to_1_2_0
+design_1_BCD2SEG7_0_0
+design_1_decode138_0_0
+
+exit
+INFO: [Common 17-206] Exiting Vivado at Wed Jun 27 18:53:30 2018...

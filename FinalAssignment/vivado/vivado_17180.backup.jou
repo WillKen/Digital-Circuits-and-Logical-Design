@@ -1,0 +1,15 @@
+#-----------------------------------------------------------
+# Vivado v2015.2 (64-bit)
+# SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+# IP Build 1264090 on Wed Jun 24 14:22:01 MDT 2015
+# Start of session at: Wed Jun 27 18:54:29 2018
+# Process ID: 9988
+# Log file: D:/The Second Semester/Digital Circuits and Logical Design Laboratory/Final Assignment/vivado/vivado.log
+# Journal file: D:/The Second Semester/Digital Circuits and Logical Design Laboratory/Final Assignment/vivado\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {D:/The Second Semester/Digital Circuits and Logical Design Laboratory/Final Assignment/vivado/project_1.xpr}
+reset_run impl_1 -prev_step 
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+wait_on_run impl_1
+open_hw
